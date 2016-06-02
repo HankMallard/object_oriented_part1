@@ -15,6 +15,10 @@ class Cat
       puts "#{@name} eat at #{@meal_time}PM"
     end
   end
+# Introduction of cats
+  def meow
+    puts "My name is #{@name} and I eat #{@preferred_food} at #{@meal_time}!"
+  end
 end
 
 # Two new instance of cats
