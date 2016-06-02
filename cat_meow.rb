@@ -25,3 +25,6 @@ end
 spot=Cat.new('spot','tuna',10)
 
 mal=Cat.new('mal', 'bass', 14)
+
+puts spot.meow
+puts mal.meow
